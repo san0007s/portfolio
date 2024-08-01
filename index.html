@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Sandesh Dandge</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="" class="link"
+          >SD.</a
+        >
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Hi, I am <span class="about__name">Sandesh Dandge.</span></h1>
+        <h2 class="about__role">A <span id="role"></span><span class="cursor">|</span>.</h2>
+        <p class="about__desc">
+          Welcome to my portfolio! I am Sandesh Dandge, an Information Technology graduate with a passion for technology and innovation. I have expertise in network administration, cybersecurity, database management, AI, and data science. My hands-on experience with diverse projects has sharpened my problem-solving and teamwork skills.
+        </p>
+
+        <div class="about__contact center">
+          <a href="https://drive.google.com/file/d/1ecbWV9_KAgV8_3gAJqFYd1kYXvdQY7_r/view?usp=sharing">
+            <span class="btn btn--outline">Resume</span>
+          </a>
+
+          <a
+            href="https://github.com/san0007s"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/sandesh-dandge-396846228/"
+            aria-label="linkedin"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>CAR_rental_sysytem</h3>
+            <p class="project__description">
+              Welcome to the Car Rental System project, a comprehensive full-stack application designed to streamline car rental services. This project showcases my ability to develop robust, scalable web applications by integrating front-end and back-end technologies.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">NEXT.JS</li>
+              <li class="project__stack-item">TypeScript</li>
+              <li class="project__stack-item">React</li>
+              <li class="project__stack-item">Tailwind CSS</li>
+              <li class="project__stack-item">GraphQL</li>
+              <li class="project__stack-item">HyGraph</li>
+            </ul>
+
+            <a
+              href="https://github.com/san0007s/CAR_RENTAL_SYSTEM.git"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://car-rental-system-mlpy.vercel.app/"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Indian Sign Language Recognition</h3>
+            <p class="project__description">
+              Welcome to the Indian Sign Language (ISL) Recognition project, an innovative application designed to enhance communication between the deaf and hearing communities in India. This project leverages advanced machine learning techniques to accurately interpret and translate ISL gestures.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">Machine learning</li>
+              <li class="project__stack-item">Deep learning</li>
+            </ul>
+
+            <a
+              href="https://github.com/san0007s/Indian-Sign-Language-Recognition-with-the-help-of-media-pipe-holistic.git"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>PDF chat</h3>
+            <p class="project__description">
+              Welcome to the PDF Chat Application project, a user-friendly tool designed to facilitate easy interaction with and extraction of information from PDF documents. This project demonstrates my ability to integrate natural language processing with a sleek, intuitive interface.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Streamlit</li>
+              <li class="project__stack-item">OpenAI's language model</li>
+              <li class="project__stack-item">Python</li>
+            </ul>
+
+            <a
+              href="https://github.com/san0007s/pdfchat3.git"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">SCSS</li>
+          
+          <li class="skills__list-item btn btn--plain">TypeScript</li>
+          <li class="skills__list-item btn btn--plain">Python</li>
+          <li class="skills__list-item btn btn--plain">Data anylist</li>
+          <li class="skills__list-item btn btn--plain">Data scientist</li>
+          <li class="skills__list-item btn btn--plain">AI</li>
+          <li class="skills__list-item btn btn--plain">LLM</li>
+          <li class="skills__list-item btn btn--plain">Deep learning</li>
+          <li class="skills__list-item btn btn--plain">OOP</li>
+          <li class="skills__list-item btn btn--plain">C++</li>
+          <li class="skills__list-item btn btn--plain">Power BI</li>
+          <li class="skills__list-item btn btn--plain">Python libs</li>
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:sandesh0007s@gmail.com">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a
+        href="https://github.com/rjshkhr/cleanfolio-minimal"
+        class="link footer__link"
+      >
+        Created By Sandesh Dandge
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+      <div class="scroll-top">
+        <a aria-label="Scroll up" href="#top">
+          <i aria-hidden="true" class="fas fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

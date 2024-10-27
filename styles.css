@@ -312,14 +312,45 @@ main {
   margin: 1.2em 0;
 }
 
+/* Define border color variables for light and dark modes */
 .project__stack-item {
-  margin: 0.5em;
+  cursor: pointer;
+  margin: 0.3em; /* Decreased margin */
   font-weight: 500;
-  font-size: 0.8rem;
+  font-size: 0.8rem; /* Decreased font size */
   color: var(--clr-fg-alt);
+  background-color: rgba(255, 255, 255, 0.1); /* Light background for contrast */
+  border-radius: 5px; /* Rounded corners for a softer look */
+  padding: 0.3em 0.8em; /* Decreased padding for a smaller clickable area */
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transition for hover effects */
 }
 
+/* Light mode specific styles */
+.light .project__stack-item {
+  border: 1px solid rgba(0, 0, 0, 0.2); /* Border color for light mode */
+}
+
+/* Add hover effects only for light mode */
+.light .project__stack-item:hover {
+  background-color: rgba(255, 255, 255, 0.3); /* Darken background on hover */
+  transform: scale(1.05); /* Slight scale-up effect on hover */
+  outline: none; /* Remove outline on hover *//* Outline for hover effect */
+}
+
+/* Remove outline in dark mode */
+.dark .project__stack-item {
+  background-color: rgba(34, 34, 34, 0.8); /* Darker background for contrast */
+  border: none; /* No border in dark mode */
+}
+
+.dark .project__stack-item:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* Maintain the same background color on hover */
+  transform: scale(1.05); /* Slight scale-up effect on hover */
+}
+
+
 .project .link--icon {
+  cursor: pointer;
   margin-left: 0.5em;
 }
 
@@ -333,6 +364,7 @@ main {
 }
 
 .skills__list-item {
+  cursor: pointer;
   margin: 0.5em;
 }
 
@@ -430,3 +462,7 @@ main {
     opacity: 1;
   }
 }
+
+
+/*new cyber punk*/
+
